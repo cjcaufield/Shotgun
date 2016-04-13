@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  AccountViewController.swift
 //  Shotgun
 //
 //  Created by Colin Caufield on 2016-02-15.
@@ -7,10 +7,12 @@
 //
 
 import UIKit
+import SecretKit
 
-class FirstViewController: UIViewController {
+class AccountViewController: SGDynamicTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Account"
     }
 }

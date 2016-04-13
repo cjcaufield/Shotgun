@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  RidesViewController.swift
 //  Shotgun
 //
 //  Created by Colin Caufield on 2016-02-15.
@@ -8,9 +8,10 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class RidesViewController: SGCloudTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Rides"
     }
 }

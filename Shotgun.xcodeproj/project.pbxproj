@@ -8,27 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		33B42DD6991CCA102E0B60EE /* Pods_Shotgun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20ECDAC221EA74BE7F3BD4A1 /* Pods_Shotgun.framework */; };
+		3B1161951CBDB431008BDD1D /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1161941CBDB431008BDD1D /* CloudKit.framework */; };
+		3B11619B1CBDDFC3008BDD1D /* RidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B11619A1CBDDFC3008BDD1D /* RidesViewController.swift */; };
+		3B11619D1CBDDFDC008BDD1D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B11619C1CBDDFDC008BDD1D /* SettingsViewController.swift */; };
+		3B11619F1CBDE081008BDD1D /* SGCloudTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B11619E1CBDE081008BDD1D /* SGCloudTableViewController.swift */; };
 		3B412E501C728CEA0073441D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B412E4F1C728CEA0073441D /* AppDelegate.swift */; };
-		3B412E521C728CEA0073441D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B412E511C728CEA0073441D /* FirstViewController.swift */; };
-		3B412E541C728CEA0073441D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B412E531C728CEA0073441D /* SecondViewController.swift */; };
+		3B412E521C728CEA0073441D /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B412E511C728CEA0073441D /* AccountViewController.swift */; };
+		3B412E541C728CEA0073441D /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B412E531C728CEA0073441D /* PlacesViewController.swift */; };
 		3B412E571C728CEA0073441D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B412E551C728CEA0073441D /* Main.storyboard */; };
 		3B412E591C728CEA0073441D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B412E581C728CEA0073441D /* Assets.xcassets */; };
 		3B412E5C1C728CEA0073441D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B412E5A1C728CEA0073441D /* LaunchScreen.storyboard */; };
-		3B9A05C71C752DDC00383522 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B9A05C61C752DDC00383522 /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		06660AC07212A95F56CFBFFA /* Pods-Shotgun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shotgun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shotgun/Pods-Shotgun.debug.xcconfig"; sourceTree = "<group>"; };
 		20ECDAC221EA74BE7F3BD4A1 /* Pods_Shotgun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shotgun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B1161941CBDB431008BDD1D /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		3B11619A1CBDDFC3008BDD1D /* RidesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RidesViewController.swift; sourceTree = "<group>"; };
+		3B11619C1CBDDFDC008BDD1D /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3B11619E1CBDE081008BDD1D /* SGCloudTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGCloudTableViewController.swift; sourceTree = "<group>"; };
 		3B412E4C1C728CEA0073441D /* Shotgun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shotgun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B412E4F1C728CEA0073441D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3B412E511C728CEA0073441D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		3B412E531C728CEA0073441D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3B412E511C728CEA0073441D /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		3B412E531C728CEA0073441D /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
 		3B412E561C728CEA0073441D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B412E581C728CEA0073441D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B412E5B1C728CEA0073441D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B412E5D1C728CEA0073441D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B9A05C61C752DDC00383522 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		3B9A05C81C75313D00383522 /* Shotgun.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Shotgun.entitlements; sourceTree = "<group>"; };
 		5142C72A89F87708481E7E88 /* Pods-Shotgun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shotgun.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shotgun/Pods-Shotgun.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,8 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B9A05C71C752DDC00383522 /* CloudKit.framework in Frameworks */,
 				33B42DD6991CCA102E0B60EE /* Pods_Shotgun.framework in Frameworks */,
+				3B1161951CBDB431008BDD1D /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,8 +75,11 @@
 			children = (
 				3B9A05C81C75313D00383522 /* Shotgun.entitlements */,
 				3B412E4F1C728CEA0073441D /* AppDelegate.swift */,
-				3B412E511C728CEA0073441D /* FirstViewController.swift */,
-				3B412E531C728CEA0073441D /* SecondViewController.swift */,
+				3B412E511C728CEA0073441D /* AccountViewController.swift */,
+				3B412E531C728CEA0073441D /* PlacesViewController.swift */,
+				3B11619A1CBDDFC3008BDD1D /* RidesViewController.swift */,
+				3B11619C1CBDDFDC008BDD1D /* SettingsViewController.swift */,
+				3B11619E1CBDE081008BDD1D /* SGCloudTableViewController.swift */,
 				3B412E551C728CEA0073441D /* Main.storyboard */,
 				3B412E581C728CEA0073441D /* Assets.xcassets */,
 				3B412E5A1C728CEA0073441D /* LaunchScreen.storyboard */,
@@ -82,7 +91,7 @@
 		6BC81122390600BDFF11E969 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3B9A05C61C752DDC00383522 /* CloudKit.framework */,
+				3B1161941CBDB431008BDD1D /* CloudKit.framework */,
 				20ECDAC221EA74BE7F3BD4A1 /* Pods_Shotgun.framework */,
 			);
 			name = Frameworks;
@@ -133,6 +142,11 @@
 					3B412E4B1C728CEA0073441D = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = B55ZL2Y7PW;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -220,9 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B412E541C728CEA0073441D /* SecondViewController.swift in Sources */,
+				3B412E541C728CEA0073441D /* PlacesViewController.swift in Sources */,
 				3B412E501C728CEA0073441D /* AppDelegate.swift in Sources */,
-				3B412E521C728CEA0073441D /* FirstViewController.swift in Sources */,
+				3B11619F1CBDE081008BDD1D /* SGCloudTableViewController.swift in Sources */,
+				3B11619B1CBDDFC3008BDD1D /* RidesViewController.swift in Sources */,
+				3B11619D1CBDDFDC008BDD1D /* SettingsViewController.swift in Sources */,
+				3B412E521C728CEA0073441D /* AccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
