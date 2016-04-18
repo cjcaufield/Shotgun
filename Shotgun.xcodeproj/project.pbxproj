@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33B42DD6991CCA102E0B60EE /* Pods_Shotgun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20ECDAC221EA74BE7F3BD4A1 /* Pods_Shotgun.framework */; };
 		3B1161951CBDB431008BDD1D /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1161941CBDB431008BDD1D /* CloudKit.framework */; };
 		3B11619B1CBDDFC3008BDD1D /* RidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B11619A1CBDDFC3008BDD1D /* RidesViewController.swift */; };
 		3B11619D1CBDDFDC008BDD1D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B11619C1CBDDFDC008BDD1D /* SettingsViewController.swift */; };
-		3B11619F1CBDE081008BDD1D /* SGCloudTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B11619E1CBDE081008BDD1D /* SGCloudTableViewController.swift */; };
 		3B412E501C728CEA0073441D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B412E4F1C728CEA0073441D /* AppDelegate.swift */; };
 		3B412E521C728CEA0073441D /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B412E511C728CEA0073441D /* AccountViewController.swift */; };
 		3B412E541C728CEA0073441D /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B412E531C728CEA0073441D /* PlacesViewController.swift */; };
 		3B412E571C728CEA0073441D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B412E551C728CEA0073441D /* Main.storyboard */; };
 		3B412E591C728CEA0073441D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B412E581C728CEA0073441D /* Assets.xcassets */; };
 		3B412E5C1C728CEA0073441D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B412E5A1C728CEA0073441D /* LaunchScreen.storyboard */; };
+		3B45E9971CBE304600DE97AC /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B45E9961CBE304600DE97AC /* PlaceViewController.swift */; };
+		3B45E9991CBE326000DE97AC /* RideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B45E9981CBE326000DE97AC /* RideViewController.swift */; };
+		E2855F5E5DAEEFA874CDF77E /* Pods_Shotgun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37621AA569A68A8F12D17A1B /* Pods_Shotgun.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		06660AC07212A95F56CFBFFA /* Pods-Shotgun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shotgun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shotgun/Pods-Shotgun.debug.xcconfig"; sourceTree = "<group>"; };
-		20ECDAC221EA74BE7F3BD4A1 /* Pods_Shotgun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shotgun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00EF7864D0419CD2947991B9 /* Pods-Shotgun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shotgun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shotgun/Pods-Shotgun.debug.xcconfig"; sourceTree = "<group>"; };
+		37621AA569A68A8F12D17A1B /* Pods_Shotgun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shotgun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B1161941CBDB431008BDD1D /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		3B11619A1CBDDFC3008BDD1D /* RidesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RidesViewController.swift; sourceTree = "<group>"; };
 		3B11619C1CBDDFDC008BDD1D /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		3B11619E1CBDE081008BDD1D /* SGCloudTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGCloudTableViewController.swift; sourceTree = "<group>"; };
 		3B412E4C1C728CEA0073441D /* Shotgun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shotgun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B412E4F1C728CEA0073441D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B412E511C728CEA0073441D /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
@@ -35,8 +35,10 @@
 		3B412E581C728CEA0073441D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B412E5B1C728CEA0073441D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B412E5D1C728CEA0073441D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B45E9961CBE304600DE97AC /* PlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
+		3B45E9981CBE326000DE97AC /* RideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideViewController.swift; sourceTree = "<group>"; };
 		3B9A05C81C75313D00383522 /* Shotgun.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Shotgun.entitlements; sourceTree = "<group>"; };
-		5142C72A89F87708481E7E88 /* Pods-Shotgun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shotgun.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shotgun/Pods-Shotgun.release.xcconfig"; sourceTree = "<group>"; };
+		EC00E72A94B8FBFCE5578F27 /* Pods-Shotgun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shotgun.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shotgun/Pods-Shotgun.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,8 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33B42DD6991CCA102E0B60EE /* Pods_Shotgun.framework in Frameworks */,
 				3B1161951CBDB431008BDD1D /* CloudKit.framework in Frameworks */,
+				E2855F5E5DAEEFA874CDF77E /* Pods_Shotgun.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,10 +57,12 @@
 		3B412E431C728CEA0073441D = {
 			isa = PBXGroup;
 			children = (
-				3B412E4E1C728CEA0073441D /* Shotgun */,
+				3B412E4E1C728CEA0073441D /* Source */,
+				3B45E99D1CBE38A800DE97AC /* UI */,
+				3B45E99C1CBE386A00DE97AC /* Supporting Files */,
 				3B412E4D1C728CEA0073441D /* Products */,
-				7BF56BABB54CC05E8852080F /* Pods */,
 				6BC81122390600BDFF11E969 /* Frameworks */,
+				CCF25B26683F71CC3CBF2743 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,21 +74,39 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3B412E4E1C728CEA0073441D /* Shotgun */ = {
+		3B412E4E1C728CEA0073441D /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				3B9A05C81C75313D00383522 /* Shotgun.entitlements */,
 				3B412E4F1C728CEA0073441D /* AppDelegate.swift */,
 				3B412E511C728CEA0073441D /* AccountViewController.swift */,
 				3B412E531C728CEA0073441D /* PlacesViewController.swift */,
+				3B45E9961CBE304600DE97AC /* PlaceViewController.swift */,
 				3B11619A1CBDDFC3008BDD1D /* RidesViewController.swift */,
+				3B45E9981CBE326000DE97AC /* RideViewController.swift */,
 				3B11619C1CBDDFDC008BDD1D /* SettingsViewController.swift */,
-				3B11619E1CBDE081008BDD1D /* SGCloudTableViewController.swift */,
-				3B412E551C728CEA0073441D /* Main.storyboard */,
-				3B412E581C728CEA0073441D /* Assets.xcassets */,
-				3B412E5A1C728CEA0073441D /* LaunchScreen.storyboard */,
-				3B412E5D1C728CEA0073441D /* Info.plist */,
 			);
+			name = Source;
+			path = Shotgun;
+			sourceTree = "<group>";
+		};
+		3B45E99C1CBE386A00DE97AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B412E5D1C728CEA0073441D /* Info.plist */,
+				3B9A05C81C75313D00383522 /* Shotgun.entitlements */,
+				3B412E581C728CEA0073441D /* Assets.xcassets */,
+			);
+			name = "Supporting Files";
+			path = Shotgun;
+			sourceTree = "<group>";
+		};
+		3B45E99D1CBE38A800DE97AC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3B412E5A1C728CEA0073441D /* LaunchScreen.storyboard */,
+				3B412E551C728CEA0073441D /* Main.storyboard */,
+			);
+			name = UI;
 			path = Shotgun;
 			sourceTree = "<group>";
 		};
@@ -92,16 +114,16 @@
 			isa = PBXGroup;
 			children = (
 				3B1161941CBDB431008BDD1D /* CloudKit.framework */,
-				20ECDAC221EA74BE7F3BD4A1 /* Pods_Shotgun.framework */,
+				37621AA569A68A8F12D17A1B /* Pods_Shotgun.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7BF56BABB54CC05E8852080F /* Pods */ = {
+		CCF25B26683F71CC3CBF2743 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				06660AC07212A95F56CFBFFA /* Pods-Shotgun.debug.xcconfig */,
-				5142C72A89F87708481E7E88 /* Pods-Shotgun.release.xcconfig */,
+				00EF7864D0419CD2947991B9 /* Pods-Shotgun.debug.xcconfig */,
+				EC00E72A94B8FBFCE5578F27 /* Pods-Shotgun.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -113,12 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B412E601C728CEA0073441D /* Build configuration list for PBXNativeTarget "Shotgun" */;
 			buildPhases = (
-				EE1BBED20269D34047397342 /* Check Pods Manifest.lock */,
+				C3F558BC9FFF62E9CC4E4F39 /* 📦 Check Pods Manifest.lock */,
 				3B412E481C728CEA0073441D /* Sources */,
 				3B412E491C728CEA0073441D /* Frameworks */,
 				3B412E4A1C728CEA0073441D /* Resources */,
-				83576174FBD1D3FAD6CFD927 /* Embed Pods Frameworks */,
-				15821F5FAFFF8C6FA01B654B /* Copy Pods Resources */,
+				1E9F7E4FB8B2442940A102CA /* 📦 Embed Pods Frameworks */,
+				0D46DBBEA05D05FBA050C256 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,14 +204,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		15821F5FAFFF8C6FA01B654B /* Copy Pods Resources */ = {
+		0D46DBBEA05D05FBA050C256 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,14 +219,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shotgun/Pods-Shotgun-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		83576174FBD1D3FAD6CFD927 /* Embed Pods Frameworks */ = {
+		1E9F7E4FB8B2442940A102CA /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,14 +234,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shotgun/Pods-Shotgun-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EE1BBED20269D34047397342 /* Check Pods Manifest.lock */ = {
+		C3F558BC9FFF62E9CC4E4F39 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,9 +258,10 @@
 			files = (
 				3B412E541C728CEA0073441D /* PlacesViewController.swift in Sources */,
 				3B412E501C728CEA0073441D /* AppDelegate.swift in Sources */,
-				3B11619F1CBDE081008BDD1D /* SGCloudTableViewController.swift in Sources */,
+				3B45E9971CBE304600DE97AC /* PlaceViewController.swift in Sources */,
 				3B11619B1CBDDFC3008BDD1D /* RidesViewController.swift in Sources */,
 				3B11619D1CBDDFDC008BDD1D /* SettingsViewController.swift in Sources */,
+				3B45E9991CBE326000DE97AC /* RideViewController.swift in Sources */,
 				3B412E521C728CEA0073441D /* AccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,7 +373,7 @@
 		};
 		3B412E611C728CEA0073441D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06660AC07212A95F56CFBFFA /* Pods-Shotgun.debug.xcconfig */;
+			baseConfigurationReference = 00EF7864D0419CD2947991B9 /* Pods-Shotgun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Shotgun/Shotgun.entitlements;
@@ -358,6 +381,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Shotgun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DDEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.secretgeometry.Shotgun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -366,7 +390,7 @@
 		};
 		3B412E621C728CEA0073441D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5142C72A89F87708481E7E88 /* Pods-Shotgun.release.xcconfig */;
+			baseConfigurationReference = EC00E72A94B8FBFCE5578F27 /* Pods-Shotgun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Shotgun/Shotgun.entitlements;
@@ -374,6 +398,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Shotgun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DRELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = com.secretgeometry.Shotgun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
