@@ -26,21 +26,21 @@ class RidesViewController: SGCloudTableViewController {
     
     // MARK: - Cells
     
-    override func cellIdentifierForObject(object: AnyObject) -> String {
+    override func cellIdentifierForObject(_ object: AnyObject) -> String {
         return "RideCell"
     }
     
     // MARK: - Navigation
     
-    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.selectedIndex = indexPath.row
-        self.performSegueWithIdentifier("RideDetailSegue", sender: self)
+        self.performSegue(withIdentifier: "RideDetailSegue", sender: self)
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "RideDetailSegue" {
             if let index = self.selectedIndex {
-                let placeController = segue.destinationViewController as! PlaceViewController
+                let placeController = segue.destination as! PlaceViewController
                 placeController.object = objects[index]
             }
         }

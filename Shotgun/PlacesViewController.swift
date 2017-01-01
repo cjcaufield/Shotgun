@@ -26,21 +26,21 @@ class PlacesViewController: SGCloudTableViewController {
     
     // MARK: - Cells
     
-    override func cellIdentifierForObject(object: AnyObject) -> String {
+    override func cellIdentifierForObject(_ object: AnyObject) -> String {
         return "PlaceCell"
     }
     
     // MARK: - Navigation
     
-    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.selectedIndex = indexPath.row
-        self.performSegueWithIdentifier("PlaceDetailSegue", sender: self)
+        self.performSegue(withIdentifier: "PlaceDetailSegue", sender: self)
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "PlaceDetailSegue" {
             if let index = self.selectedIndex {
-                let placeController = segue.destinationViewController as! PlaceViewController
+                let placeController = segue.destination as! PlaceViewController
                 placeController.object = objects[index]
             }
         }

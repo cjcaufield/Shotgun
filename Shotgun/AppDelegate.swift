@@ -20,13 +20,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     // MARK: - Callbacks
     
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        
-        CloudData.shared // Create this as early as possible.
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
+        let _ = CloudData.shared // Create this as early as possible.
         return true
     }
     
-    func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject]) {
+    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable: Any]) {
         
         self.cloudData?.handleRemoteNotification(userInfo)
     }

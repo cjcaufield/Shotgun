@@ -43,7 +43,7 @@ class AccountViewController: SGDynamicTableViewController {
         )
     }
     
-    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         
         switch section {
         case 0:     return " "

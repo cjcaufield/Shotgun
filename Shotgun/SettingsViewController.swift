@@ -16,7 +16,7 @@ class SettingsViewController: SGDynamicTableViewController {
         self.title = "Settings"
     }
     
-    let versionHack = NSNumber(double: 0.01)
+    let versionHack = NSNumber(value: 0.01 as Double)
     
     #if DEBUG
         let buildTypeHack = "DEBUG"
@@ -43,7 +43,7 @@ class SettingsViewController: SGDynamicTableViewController {
         )
     }
     
-    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         
         switch section {
             case 0:     return " "

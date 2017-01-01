@@ -1,5 +1,5 @@
 PODS:
-  - SecretKit (0.1.6)
+  - SecretKit (0.1.7)
 
 DEPENDENCIES:
   - SecretKit (from `~/Work/SecretKit`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: ~/Work/SecretKit
 
 SPEC CHECKSUMS:
-  SecretKit: 935c6dc17547f67a89e05f21ec56e515f3342271
+  SecretKit: f3a5635df2cde25e7280c9db142e2687ce7d0aec
 
-PODFILE CHECKSUM: bd2e8f736bfc9cd451e248c0f2a8d98d7c82bac1
+PODFILE CHECKSUM: a605544b149ba4d5e4e0d0c03c3090cfb9c18781
 
 COCOAPODS: 1.0.0.beta.6
