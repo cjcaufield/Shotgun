@@ -1,6 +1,0 @@
-framework module Pods_Shotgun {
-  umbrella header "Pods-Shotgun-umbrella.h"
-
-  export *
-  module * { export * }
-}
