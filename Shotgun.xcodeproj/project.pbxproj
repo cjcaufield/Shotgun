@@ -38,6 +38,7 @@
 		3B45E9961CBE304600DE97AC /* PlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
 		3B45E9981CBE326000DE97AC /* RideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideViewController.swift; sourceTree = "<group>"; };
 		3B9A05C81C75313D00383522 /* Shotgun.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Shotgun.entitlements; sourceTree = "<group>"; };
+		3BCF37D31E1A23DA00DC3E20 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		EC00E72A94B8FBFCE5578F27 /* Pods-Shotgun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shotgun.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shotgun/Pods-Shotgun.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,6 +58,7 @@
 		3B412E431C728CEA0073441D = {
 			isa = PBXGroup;
 			children = (
+				3BCF37D31E1A23DA00DC3E20 /* Podfile */,
 				3B412E4E1C728CEA0073441D /* Source */,
 				3B45E99D1CBE38A800DE97AC /* UI */,
 				3B45E99C1CBE386A00DE97AC /* Supporting Files */,
